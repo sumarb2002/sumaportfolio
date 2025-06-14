@@ -510,6 +510,83 @@ ul{
 }
 
 
+@media (max-width: 768px) {
+  .topnav {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 20px;
+     /* margin-bottom: 60px;  */
+     z-index: 1000;
+     position: relative;
+  }
 
+  .topnav nav ul {
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    margin-top: 10px;
+  }
 
+  .hero-header h1 {
+    font-size: 32px;
+  }
 
+  .hero-header p {
+    font-size: 16px;
+  }
+
+  .hero-header .overlay {
+    padding: 40px 20px;
+  }
+
+  .project {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .project .text, .project .image {
+    padding: 10px 0;
+  }
+
+  .skills-container {
+    gap: 15px;
+  }
+
+  .skill-box {
+    width: 120px;
+    padding: 15px;
+  }
+
+  form {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .section {
+    padding: 60px 15px;
+  }
+
+  .timeline {
+    padding-left: 0;
+  }
+
+  .timeline-item {
+    padding-left: 40px;
+  }
+
+  .timeline::before {
+    left: 18px;
+  }
+
+  .timeline-dot {
+    left: 10px;
+  }
+
+  .timeline-content {
+    padding: 15px;
+  }
+
+  footer {
+    padding: 15px;
+  }
+}
